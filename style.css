@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Figtree';
+    src: 
+    url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'),
+    url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --yelow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #686868;
+}
+
+.text-preset-1 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 150%;
+    word-spacing: 0;
+    color: var(--gray-950);
+}
+
+.text-preset-2 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    word-spacing: 0;
+    color: var(--gray-500);
+}
+
+.text-preset-3 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    word-spacing: 0;
+    color: var(--gray-950);
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+body {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+body>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 24px;
+    width: min-content;
+    height: min-content;
+    border: 1px solid var(--gray-950);
+    border-radius: 20px;
+    box-shadow: 8px 8px var(--gray-950);
+}
+
+.blog-img {
+    align-self: center;
+    border-radius: 20px;
+    overflow: hidden;
+    height: min-content;
+    width: min-content;
+}
+
+.blog-img>img {
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 24px 0 24px 0;
+    row-gap: 12px;
+    height: min-content;
+}
+
+.content>span.text-preset-3.bold {
+    background-color: var(--yelow);
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+}
+
+.content>* {
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.author>img {
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 640px) {
+    body>div>div.blog-img {
+        width:279px;
+    }
+}
