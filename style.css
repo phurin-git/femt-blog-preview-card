@@ -20,6 +20,11 @@
     color: var(--gray-950);
 }
 
+.text-preset-1:hover {
+    color: var(--yelow);
+    cursor: pointer;
+}
+
 .text-preset-2 {
     font-family: 'Figtree', sans-serif;
     font-weight: normal;
