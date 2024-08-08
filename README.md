@@ -20,21 +20,21 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-When not hover:
+When not hover:\
 ![](./challenge_main.png)
 
-When hover:
+When hover:\
 ![](./challenge_hover.png)
 
 ### Screenshot
 
-On iphone12 pro (390x844)
+On iphone12 pro (390x844)\
 ![](./screenshot_iphone12pro_390x844.jpeg)
 
-On ipad (768x1024)
+On ipad (768x1024)\
 ![](./screenshot_ipad_768x1024.jpeg)
 
-On macbook pro (1440x900)
+On macbook pro (1440x900)\
 ![](./screenshot_macbookpro_1440x900.jpeg)
 
 ## My process
